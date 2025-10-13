@@ -50,7 +50,7 @@ export const CTA = () => {
             </Button>
 
             <p className="text-sm text-muted-foreground mt-6">
-              Sem compromisso. Resposta em até 2 horas úteis.
+              Sem compromisso. <p> Resposta em até 2 horas úteis.</p>
             </p>
           </div>
         </div>

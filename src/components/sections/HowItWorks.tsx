@@ -67,7 +67,7 @@ export const HowItWorks = () => {
 
                   {/* Seta conectora (apenas no desktop) */}
                   {index < steps.length - 1 && (
-                    <div className="hidden lg:block absolute top-1/2 -right-4 text-purple-accent text-2xl -translate-y-1/2 z-10">
+                    <div className="hidden lg:block absolute top-1/2 -right-6 text-purple-accent text-2xl -translate-y-1/2 z-10">
                       →
                     </div>
                   )}

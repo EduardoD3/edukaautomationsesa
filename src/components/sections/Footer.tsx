@@ -78,16 +78,16 @@ export const Footer = () => {
             <ul className="space-y-2 text-muted-foreground">
               <li>
                 <a href="mailto:contato@edukasolutions.com" className="hover:text-blue-light transition-colors">
-                  contato@edukasolutions.com
+                 edukaautomations@gmail.com
                 </a>
               </li>
               <li>
                 <a href="https://wa.me/5511999999999" className="hover:text-blue-light transition-colors">
-                  WhatsApp: (11) 99999-9999
+                  WhatsApp: (69) 993879030
                 </a>
               </li>
               <li className="text-sm">
-                São Paulo, SP
+                Rondônia, Porto Velho
               </li>
             </ul>
           </div>

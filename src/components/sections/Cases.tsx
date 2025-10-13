@@ -21,8 +21,8 @@ const cases = [
     vertical: "Energia",
     problem: "Processos de cotação lentos e pouco rastreáveis",
     solution: "Pipeline automatizado com CRM + qualificação por IA + dashboards",
-    result: "+28% em MQLs qualificados",
-    metric: "28%",
+    result: "+58% em MQLs qualificados",
+    metric: "58%",
   },
   {
     vertical: "Educação",

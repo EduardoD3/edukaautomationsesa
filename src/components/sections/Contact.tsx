@@ -166,7 +166,7 @@ export const Contact = () => {
                   <div>
                     <p className="font-semibold mb-1">Email</p>
                     <a href="mailto:contato@edukasolutions.com" className="text-blue-light hover:underline">
-                      contato@edukasolutions.com
+                     edukaautomations@gmail.com
                     </a>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export const Contact = () => {
                   <div>
                     <p className="font-semibold mb-1">WhatsApp</p>
                     <a href="https://wa.me/5511999999999" className="text-blue-light hover:underline">
-                      +55 (11) 99999-9999
+                      +55 (69) 993879030
                     </a>
                   </div>
                 </div>
@@ -190,7 +190,7 @@ export const Contact = () => {
                   <div>
                     <p className="font-semibold mb-1">Localização</p>
                     <p className="text-muted-foreground">
-                      São Paulo, SP<br />
+                      Porto Velho, RO<br />
                       Atendimento nacional
                     </p>
                   </div>

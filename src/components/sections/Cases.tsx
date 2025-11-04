@@ -4,32 +4,36 @@ import { TrendingUp } from "lucide-react";
 
 const cases = [
   {
-    vertical: "Varejo",
-    problem: "Atendimento WhatsApp com 4h de delay e alta taxa de abandono",
-    solution: "Bot inteligente com IA + triagem automática + integração ao estoque",
-    result: "-63% no tempo de resposta",
-    metric: "63%",
+    vertical: "EduKa Agents",
+    title: "Agente de IA para E-commerce",
+    problem: "Loja virtual com alto volume de perguntas repetitivas no WhatsApp, equipe sobrecarregada.",
+    solution: "Chatbot inteligente com IA generativa integrado ao WhatsApp e CRM, treinado com dados da empresa.",
+    result: "Atendimento 24/7, redução de 75% no tempo de resposta e aumento de 32% nas conversões.",
+    metrics: { improvement: "+32%", label: "conversões" },
   },
   {
-    vertical: "Saúde",
-    problem: "Confirmação de consultas manual e retrabalho da equipe",
-    solution: "Automação de confirmação via WhatsApp + SMS + integração ao sistema",
-    result: "-82% no trabalho manual",
-    metric: "82%",
+    vertical: "EduKa SaaS Studio",
+    title: "Plataforma de Gestão para Clínicas",
+    problem: "Clínica precisava de sistema próprio para agendamentos, prontuários e gestão financeira.",
+    solution: "Desenvolvimento full stack de SaaS completo com painel admin, banco seguro e integração com WhatsApp.",
+    result: "Sistema proprietário escalável, redução de 60% em custos de software e controle total dos dados.",
+    metrics: { improvement: "-60%", label: "custos de software" },
   },
   {
-    vertical: "Energia",
-    problem: "Processos de cotação lentos e pouco rastreáveis",
-    solution: "Pipeline automatizado com CRM + qualificação por IA + dashboards",
-    result: "+58% em MQLs qualificados",
-    metric: "58%",
+    vertical: "EduKa Dash",
+    title: "Dashboard Financeiro para Energia Solar",
+    problem: "Empresa sem visibilidade em tempo real de vendas, pipeline e performance financeira.",
+    solution: "Dashboard personalizado com integração a CRM, ERP e Google Sheets, com KPIs em tempo real.",
+    result: "Decisões baseadas em dados, identificação rápida de gargalos e aumento de 40% na produtividade.",
+    metrics: { improvement: "+40%", label: "produtividade" },
   },
   {
-    vertical: "Educação",
-    problem: "Leads não qualificados chegando ao time comercial",
-    solution: "Chatbot RAG treinado na base de conhecimento + lead scoring",
-    result: "+45% taxa de conversão",
-    metric: "45%",
+    vertical: "EduKa Connect",
+    title: "Integração de Sistemas Legados",
+    problem: "Empresa com ERP antigo, CRM moderno e planilhas desconectadas, dados duplicados.",
+    solution: "API middleware personalizada para sincronizar todos os sistemas, fluxo de dados unificado.",
+    result: "Eliminação de retrabalho, dados centralizados e economia de 20h/semana da equipe.",
+    metrics: { improvement: "-20h", label: "por semana" },
   },
 ];
 
@@ -56,24 +60,26 @@ export const Cases = () => {
                 </Badge>
                 <div className="flex items-center gap-2 text-green-neon">
                   <TrendingUp className="w-5 h-5" />
-                  <span className="text-2xl font-bold">{item.metric}</span>
+                  <span className="text-xl font-bold">{item.metrics.improvement}</span>
                 </div>
               </div>
+
+              <h3 className="text-xl font-bold mb-4 text-gradient">{item.title}</h3>
 
               <div className="space-y-4">
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Problema:</p>
-                  <p className="text-foreground font-medium">{item.problem}</p>
+                  <p className="text-foreground">{item.problem}</p>
                 </div>
 
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Solução:</p>
-                  <p className="text-foreground font-medium">{item.solution}</p>
+                  <p className="text-foreground">{item.solution}</p>
                 </div>
 
                 <div className="pt-4 border-t border-border">
                   <p className="text-sm text-muted-foreground mb-1">Resultado:</p>
-                  <p className="text-lg font-bold text-gradient">{item.result}</p>
+                  <p className="text-lg font-semibold text-green-neon">{item.result}</p>
                 </div>
               </div>
             </div>

@@ -3,24 +3,24 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Carlos Mendes",
-    role: "CTO",
-    company: "TechFlow Solutions",
-    content: "A EduKa entregou em 48h o que tentamos fazer internamente por 3 meses. A qualidade técnica e o suporte são excepcionais.",
+    name: "Ana Carolina",
+    role: "CEO",
+    company: "TechVarejo SA",
+    content: "A EduKa desenvolveu nosso SaaS completo em tempo recorde. Código limpo, documentado e escalável. Agora temos um produto proprietário que vale milhões.",
     rating: 5,
   },
   {
-    name: "Marina Santos",
-    role: "Head de Operações",
-    company: "VarejoMax",
-    content: "Reduzimos 63% no tempo de resposta do WhatsApp e aumentamos a satisfação dos clientes. ROI positivo no primeiro mês.",
+    name: "Ricardo Ferreira",
+    role: "Diretor de TI",
+    company: "Clínica Saúde+",
+    content: "Transformaram nossos processos manuais em automações inteligentes. A integração com nosso ERP antigo foi perfeita. Economizamos 60% em custos operacionais.",
     rating: 5,
   },
   {
-    name: "Roberto Lima",
-    role: "Diretor Comercial",
-    company: "Energia Solar Pro",
-    content: "Automações inteligentes que realmente entendem nosso negócio. Nosso pipeline nunca esteve tão organizado e produtivo.",
+    name: "Juliana Mendes",
+    role: "Head de Marketing",
+    company: "Solar Energy Brasil",
+    content: "Os agentes de IA da EduKa revolucionaram nosso atendimento. Qualidade técnica excepcional e suporte sempre presente. Resultados desde o primeiro dia.",
     rating: 5,
   },
 ];

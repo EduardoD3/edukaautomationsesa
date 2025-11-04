@@ -1,36 +1,36 @@
 import { SectionHeader } from "@/components/ui/section-header";
-import { MessageSquare, Brain, BarChart3, DollarSign, Zap, Blocks } from "lucide-react";
+import { MessageSquare, Brain, BarChart3, Code2, Plug, Users } from "lucide-react";
 
 const features = [
   {
-    icon: MessageSquare,
-    title: "Integrações Poderosas",
-    description: "WhatsApp, CRMs, planilhas, ERPs e mais de 400 aplicações conectadas em um único fluxo inteligente.",
+    icon: Brain,
+    title: "EduKa Agents",
+    description: "Agentes de IA personalizados para vendas, suporte e operações. Integração com WhatsApp, CRM, ERP e mais. Setup a partir de R$2.000.",
   },
   {
-    icon: Brain,
-    title: "IA & RAG Avançado",
-    description: "Processamento de linguagem natural, análise de contexto e respostas inteligentes baseadas em seus dados.",
+    icon: Code2,
+    title: "EduKa SaaS Studio",
+    description: "Criação de SaaS e microSaaS completos. Desenvolvimento full stack, banco seguro, API própria e infraestrutura escalável. A partir de R$10.000.",
   },
   {
     icon: BarChart3,
-    title: "Painéis Personalizados",
-    description: "Dashboards em tempo real com métricas que importam para seu negócio. Decisões baseadas em dados.",
+    title: "EduKa Dash",
+    description: "Painéis e landing pages de alta performance. Dashboards em tempo real, visualização de dados e páginas otimizadas para conversão.",
   },
   {
-    icon: DollarSign,
-    title: "Redução de Custos",
-    description: "Até 70% de economia em processos manuais. ROI positivo em menos de 3 meses.",
+    icon: Plug,
+    title: "EduKa Connect",
+    description: "Integração e APIs personalizadas. Conecte sistemas legados, CRMs, ERPs e softwares de terceiros com segurança total.",
   },
   {
-    icon: Zap,
-    title: "Implementação Rápida",
-    description: "Do zero ao go-live em 48h. Sem fricção, sem burocracia, sem perda de tempo.",
+    icon: Users,
+    title: "EduKa Consult",
+    description: "Consultoria técnica e estratégica em digitalização, automação e arquitetura tecnológica corporativa. Diagnóstico e planejamento completo.",
   },
   {
-    icon: Blocks,
-    title: "Escalável & Flexível",
-    description: "Cresce com seu negócio. Adicione novos fluxos e integrações quando precisar.",
+    icon: MessageSquare,
+    title: "White Label & Parcerias",
+    description: "Desenvolvimento para agências que desejam revender sob sua marca. Parcerias estratégicas com empresas de tecnologia.",
   },
 ];
 
@@ -39,9 +39,9 @@ export const Features = () => {
     <section id="features" className="relative py-24 md:py-32 overflow-hidden">
       <div className="container relative z-10 px-4">
         <SectionHeader
-          kicker="Por que EduKa?"
-          title="Automação que entrega resultados reais"
-          subtitle="Tecnologia de ponta que resolve problemas complexos de forma simples"
+          kicker="Nossos Núcleos de Soluções"
+          title="Do código à automação — soluções completas"
+          subtitle="Cinco núcleos integrados para transformar seu negócio com tecnologia de ponta"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">

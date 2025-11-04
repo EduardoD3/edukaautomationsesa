@@ -21,22 +21,22 @@ export const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-purple-accent/20">
             <Sparkles className="w-4 h-4 text-purple-accent" />
             <span className="text-sm font-medium">
-              Mais de <span className="text-gradient font-bold">500+ automações</span> implementadas
+              Agência-tech de <span className="text-gradient font-bold">nova geração</span> em IA e automação
             </span>
           </div>
 
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
-            Automações Inteligentes{" "}
-            <span className="text-gradient">com IA</span>
+            Do Código à Automação:{" "}
+            <span className="text-gradient">Softwares Inteligentes</span>
             <br />
-            que Transformam Negócios
+            que Conectam Tecnologia e Resultados
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Integre WhatsApp, CRM, planilhas e sistemas com inteligência artificial. 
-            Reduza custos, acelere processos e escale seu negócio com automação de verdade.
+            Agência-tech que une Inteligência Artificial, automação de processos e desenvolvimento full stack. 
+            Transformamos empresas em estruturas tecnológicas autossuficientes, seguras e escaláveis.
           </p>
 
           {/* CTAs */}
@@ -61,9 +61,9 @@ export const Hero = () => {
 
           {/* Métricas de impacto */}
           <div className="flex flex-wrap items-center justify-center gap-4 pt-8">
-            <MetricBadge value="-63%" label="tempo de resposta" variant="success" />
-            <MetricBadge value="+28%" label="MQLs qualificados" variant="primary" />
-            <MetricBadge value="48h" label="para go-live" variant="accent" />
+            <MetricBadge value="Full Stack" label="desenvolvimento completo" variant="primary" />
+            <MetricBadge value="IA Avançada" label="GPT, Claude, Gemini" variant="success" />
+            <MetricBadge value="Escalável" label="arquitetura em nuvem" variant="accent" />
           </div>
 
           {/* Visual de fluxo */}

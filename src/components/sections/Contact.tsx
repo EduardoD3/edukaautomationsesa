@@ -62,9 +62,9 @@ export const Contact = () => {
     <section id="contato" className="relative py-24 md:py-32">
       <div className="container relative z-10 px-4">
         <SectionHeader
-          kicker="Fale Conosco"
-          title="Vamos automatizar seu negócio"
-          subtitle="Preencha o formulário e nosso time entrará em contato em até 2 horas úteis"
+          kicker="Fale com a EduKa"
+          title="Pronto para transformar seu negócio?"
+          subtitle="Entre em contato e descubra como nossas soluções podem impulsionar seus resultados"
         />
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -165,8 +165,8 @@ export const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold mb-1">Email</p>
-                    <a href="mailto:contato@edukasolutions.com" className="text-blue-light hover:underline">
-                     edukaautomations@gmail.com
+                    <a href="mailto:contato@edukasolutions.com.br" className="text-blue-light hover:underline">
+                     contato@edukasolutions.com.br
                     </a>
                   </div>
                 </div>
@@ -176,9 +176,9 @@ export const Contact = () => {
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold mb-1">WhatsApp</p>
-                    <a href="https://wa.me/5511999999999" className="text-blue-light hover:underline">
-                      +55 (69) 993879030
+                    <p className="font-semibold mb-1">Website</p>
+                    <a href="https://www.edukasolutions.com.br" className="text-blue-light hover:underline">
+                      www.edukasolutions.com.br
                     </a>
                   </div>
                 </div>
@@ -188,11 +188,10 @@ export const Contact = () => {
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold mb-1">Localização</p>
-                    <p className="text-muted-foreground">
-                      Porto Velho, RO<br />
-                      Atendimento nacional
-                    </p>
+                    <p className="font-semibold mb-1">Redes Sociais</p>
+                    <a href="https://instagram.com/edukasolutions" className="text-blue-light hover:underline">
+                      @edukasolutions
+                    </a>
                   </div>
                 </div>
               </div>

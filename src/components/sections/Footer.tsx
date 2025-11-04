@@ -25,8 +25,7 @@ export const Footer = () => {
               </div>
             </div>
             <p className="text-muted-foreground mb-4 max-w-sm">
-              Transformando processos com automações inteligentes e IA. 
-              Automatize. Responda. Lucre.
+              Do código à automação — criamos softwares inteligentes que conectam tecnologia, pessoas e resultados.
             </p>
             <p className="text-sm text-muted-foreground">
               #EduKaFala
@@ -77,17 +76,19 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4">Contato</h4>
             <ul className="space-y-2 text-muted-foreground">
               <li>
-                <a href="mailto:contato@edukasolutions.com" className="hover:text-blue-light transition-colors">
-                 edukaautomations@gmail.com
+                <a href="mailto:contato@edukasolutions.com.br" className="hover:text-blue-light transition-colors">
+                 contato@edukasolutions.com.br
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/5511999999999" className="hover:text-blue-light transition-colors">
-                  WhatsApp: (69) 993879030
+                <a href="https://www.edukasolutions.com.br" className="hover:text-blue-light transition-colors">
+                  www.edukasolutions.com.br
                 </a>
               </li>
-              <li className="text-sm">
-                Rondônia, Porto Velho
+              <li>
+                <a href="https://instagram.com/edukasolutions" className="hover:text-blue-light transition-colors">
+                  @edukasolutions
+                </a>
               </li>
             </ul>
           </div>

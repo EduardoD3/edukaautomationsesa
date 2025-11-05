@@ -165,8 +165,8 @@ export const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold mb-1">Email</p>
-                    <a href="mailto:contato@edukasolutions.com.br" className="text-blue-light hover:underline">
-                     contato@edukasolutions.com.br
+                    <a href="mailto:edukaautomations@gmail.com" className="text-blue-light hover:underline">
+                      edukaautomations@gmail.com
                     </a>
                   </div>
                 </div>
@@ -176,9 +176,9 @@ export const Contact = () => {
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold mb-1">Website</p>
-                    <a href="https://www.edukasolutions.com.br" className="text-blue-light hover:underline">
-                      www.edukasolutions.com.br
+                    <p className="font-semibold mb-1">WhatsApp</p>
+                    <a href="https://wa.me/5569993879030" className="text-blue-light hover:underline">
+                      +55 (69) 99387-9030
                     </a>
                   </div>
                 </div>
@@ -188,10 +188,9 @@ export const Contact = () => {
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold mb-1">Redes Sociais</p>
-                    <a href="https://instagram.com/edukasolutions" className="text-blue-light hover:underline">
-                      @edukasolutions
-                    </a>
+                    <p className="font-semibold mb-1">Localização</p>
+                    <p className="text-muted-foreground">Porto Velho, RO</p>
+                    <p className="text-sm text-muted-foreground">Atendimento nacional</p>
                   </div>
                 </div>
               </div>

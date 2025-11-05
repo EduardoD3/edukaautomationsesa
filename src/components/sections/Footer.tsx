@@ -76,19 +76,20 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4">Contato</h4>
             <ul className="space-y-2 text-muted-foreground">
               <li>
-                <a href="mailto:contato@edukasolutions.com.br" className="hover:text-blue-light transition-colors">
-                 contato@edukasolutions.com.br
+                <a href="mailto:edukaautomations@gmail.com" className="hover:text-blue-light transition-colors">
+                  edukaautomations@gmail.com
                 </a>
               </li>
               <li>
-                <a href="https://www.edukasolutions.com.br" className="hover:text-blue-light transition-colors">
-                  www.edukasolutions.com.br
+                <a href="https://wa.me/5569993879030" className="hover:text-blue-light transition-colors">
+                  +55 (69) 99387-9030
                 </a>
               </li>
-              <li>
-                <a href="https://instagram.com/edukasolutions" className="hover:text-blue-light transition-colors">
-                  @edukasolutions
-                </a>
+              <li className="text-muted-foreground">
+                Porto Velho, RO
+              </li>
+              <li className="text-muted-foreground text-sm">
+                Atendimento nacional
               </li>
             </ul>
           </div>

@@ -5,12 +5,12 @@ const features = [
   {
     icon: Brain,
     title: "EduKa Agents",
-    description: "Agentes de IA personalizados para vendas, suporte e operações. Integração com WhatsApp, CRM, ERP e mais. Setup a partir de R$2.000.",
+    description: "Agentes de IA personalizados para vendas, suporte e operações. Integração com WhatsApp, CRM, ERP e muito mais. Análise personalizada e orçamento sob demanda.",
   },
   {
     icon: Code2,
     title: "EduKa SaaS Studio",
-    description: "Criação de SaaS e microSaaS completos. Desenvolvimento full stack, banco seguro, API própria e infraestrutura escalável. A partir de R$10.000.",
+    description: "Criação de SaaS e microSaaS completos. Desenvolvimento full stack, banco seguro, API própria e infraestrutura escalável. Projetos customizados para seu negócio.",
   },
   {
     icon: BarChart3,
@@ -21,11 +21,6 @@ const features = [
     icon: Plug,
     title: "EduKa Connect",
     description: "Integração e APIs personalizadas. Conecte sistemas legados, CRMs, ERPs e softwares de terceiros com segurança total.",
-  },
-  {
-    icon: Users,
-    title: "EduKa Consult",
-    description: "Consultoria técnica e estratégica em digitalização, automação e arquitetura tecnológica corporativa. Diagnóstico e planejamento completo.",
   },
   {
     icon: MessageSquare,
@@ -41,7 +36,7 @@ export const Features = () => {
         <SectionHeader
           kicker="Nossos Núcleos de Soluções"
           title="Do código à automação — soluções completas"
-          subtitle="Cinco núcleos integrados para transformar seu negócio com tecnologia de ponta"
+          subtitle="Núcleos integrados para transformar seu negócio com tecnologia de ponta"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">

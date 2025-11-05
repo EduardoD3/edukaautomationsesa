@@ -5,14 +5,14 @@ const steps = [
   {
     icon: Search,
     number: "01",
-    title: "Diagnóstico",
-    description: "Análise completa do seu negócio, processos e necessidades tecnológicas. Identificamos oportunidades e desafios.",
+    title: "Análise & Conversação",
+    description: "Reunião estratégica para entender seu negócio, processos e objetivos. Identificamos oportunidades de automação e necessidades específicas.",
   },
   {
     icon: FileCode,
     number: "02",
-    title: "Arquitetura",
-    description: "Definição da estrutura técnica, integrações e fluxos. Planejamento detalhado da solução ideal para seu caso.",
+    title: "Proposta Personalizada",
+    description: "Blueprint técnico detalhado com arquitetura, integrações e tecnologias. Orçamento customizado baseado no escopo do seu projeto.",
   },
   {
     icon: Code,
